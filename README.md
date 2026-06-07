@@ -46,7 +46,7 @@ Investigating how numerical integrators influence energy conservation, orbital a
 My GitHub contribution history rendered as a space shooter game.
 
 <p align="center">
-  <img src="game.gif" alt="GitHub Space Shooter" width="800">
+  <img src="example.gif" alt="GitHub Space Shooter" width="800">
 </p>
 
 ---
