@@ -44,7 +44,7 @@ Investigating how numerical integrators influence energy conservation, orbital a
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
 <p align="center">
-  <img src="assets/Butterfly_Effect.gif" alt="Pythagorean three-body problem integrated with the Yoshida symplectic method" width="700">
+  <img src="assets/nbody-chaos.gif" alt="Pythagorean three-body problem integrated with the Yoshida symplectic method" width="700">
 </p>
 
 ## Research Interests
