@@ -1,0 +1,49 @@
+name: Update Contribution Graphs
+
+on:
+  schedule:
+    - cron: '0 6 * * *'      # daily at 06:00 UTC
+  workflow_dispatch:           # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2       # needed so the daily commit can be amended
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install numpy matplotlib imageio pillow
+
+      - name: Generate animation
+        run: |
+          mkdir -p assets
+          python chaos.py "${{ github.repository_owner }}" -o assets/chaos.gif
+
+      - name: Commit if changed
+        run: |
+          git add assets/chaos.gif
+          if git diff --cached --quiet; then
+            echo "No change in contribution graph — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          MSG="chore: update contribution graph"
+          if [ "$(git log -1 --pretty=%s)" = "$MSG" ]; then
+            git commit --amend --no-edit
+            git push --force-with-lease
+          else
+            git commit -m "$MSG"
+            git push
+          fi
