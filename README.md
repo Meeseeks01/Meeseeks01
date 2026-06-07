@@ -19,11 +19,11 @@ BSc Computer Science student with a strong interest in numerical simulation, dyn
 
 ### N-Body Numerical Analysis
 
-Investigating how numerical integrators influence energy conservation, orbital accuracy, and chaos detection in gravitational N-body systems.
+Investigating how numerical integrators influence energy conservation, orbital accuracy, and chaos detection (Lyapunov exponents via Benettin's algorithm) in gravitational N-body systems.
 
 **Integrators**
 
-* Euler
+* Euler (explicit & semi-implicit)
 * Leapfrog
 * RK4
 * Yoshida
@@ -39,17 +39,6 @@ Investigating how numerical integrators influence energy conservation, orbital a
 
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
----
-
-## GitHub Galaxy
-
-My GitHub contribution history rendered as a space shooter game.
-
-<p align="center">
-  <img src="example.gif" alt="GitHub Space Shooter" width="800">
-</p>
-
----
 
 ## Research Interests
 
@@ -78,12 +67,3 @@ My GitHub contribution history rendered as a space shooter game.
 * LaTeX
 
 ---
-
-## Recent Activity
-
-<a href="https://next.ossinsight.io/widgets/official/compose-currently-working-on?user_id=12960671&activity_type=all" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?user_id=12960671&activity_type=all&image_size=auto&color_scheme=dark">
-    <img alt="Recent Work" src="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?user_id=12960671&activity_type=all&image_size=auto&color_scheme=light">
-  </picture>
-</a>
