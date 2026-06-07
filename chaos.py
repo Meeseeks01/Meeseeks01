@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
+"""
+contribution_chaos.py
+Render a GitHub contribution graph dissolving into chaos via chaotic advection.
 
+Usage:
+    pip install numpy matplotlib imageio pillow
+    python contribution_chaos.py <username> [-o chaos.gif]
+
+Seeds particles on every contribution cell, then advects them through a
+time-dependent, divergence-free vortex flow (integrated with RK4). The flow is
+a chaotic Hamiltonian, so the recognizable graph stretches and folds into
+chaotic filaments -- the signature of sensitive dependence on initial conditions.
+"""
 import argparse, re, datetime, os, urllib.request
 import numpy as np
 import matplotlib; matplotlib.use("Agg")
@@ -66,11 +78,6 @@ def render(cells, user, out):
         for j, Pj in enumerate(hist):
             rgba = np.concatenate([RGB, (A*((j+1)/K)**1.6)[:, None]], 1)
             ax.scatter(Pj[:, 0], Pj[:, 1], s=6.0, c=rgba, linewidths=0)
-        ax.text(0.012, 0.95, f"github.com/{user}", transform=ax.transAxes,
-                color="#8b949e", fontsize=10, family="monospace", alpha=0.85, va="top")
-        ax.text(0.012, 0.90, "contribution graph // chaotic advection (RK4)",
-                transform=ax.transAxes, color="#6e7681", fontsize=8,
-                family="monospace", alpha=0.8, va="top")
         fig.canvas.draw()
         buf = np.asarray(fig.canvas.buffer_rgba())[..., :3].copy(); plt.close(fig); return buf
 
