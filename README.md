@@ -1,4 +1,6 @@
-# El
+# Hi, I'm Eleni ⚡️
+
+Studying chaotic systems. Occasionally contributing to them.
 
 > Computational Science • Scientific Computing • Computational Physics
 
