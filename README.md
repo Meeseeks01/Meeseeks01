@@ -1,17 +1,19 @@
-# Hi, I'm Eleni 👋
+# El
 
-BSc Computer Science student with a strong interest in Computational Science, Physics, and Mathematics.
+> Computational Science • Scientific Computing • Computational Physics
+
+BSc Computer Science student with a strong interest in numerical simulation, dynamical systems, and chaos theory.
 
 <p align="center">
-  <img src="assets/Butterfly_Effect.gif" alt="N-Body Simulation" width="700">
+  <img src="assets/Butterfly_Effect.gif" alt="Butterfly Effect" width="700">
 </p>
 
 ## About Me
 
-* 🎓 Computer Science student
+* 🎓 BSc Computer Science Student
 * 🔬 Interested in Computational Science, Scientific Computing, and Computational Physics
-* 🧮 Passionate about numerical simulations, dynamical systems, and chaos theory
-* 🌌 Aspiring computational scientist focused on mathematical modeling and numerical methods
+* 🧮 Passionate about numerical simulation, numerical methods, and dynamical systems
+* 🌌 Exploring the emergence of order and chaos in complex systems
 
 ## Featured Project
 
@@ -19,7 +21,7 @@ BSc Computer Science student with a strong interest in Computational Science, Ph
 
 Investigating how numerical integrators influence energy conservation, orbital accuracy, and chaos detection in gravitational N-body systems.
 
-**Methods**
+**Integrators**
 
 * Euler
 * Leapfrog
@@ -37,19 +39,28 @@ Investigating how numerical integrators influence energy conservation, orbital a
 
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
+---
+
+## GitHub Galaxy
+
+My GitHub contribution history rendered as a space shooter game.
+
 <p align="center">
-  <img src="game.gif" alt="GitHub Space Shooter">
+  <img src="game.gif" alt="GitHub Space Shooter" width="800">
 </p>
 
-## Currently Learning
+---
 
+## Research Interests
+
+* Computational Physics
 * Numerical Methods
+* Scientific Computing
 * Dynamical Systems
 * Chaos Theory
-* Scientific Computing
-* Computational Physics
+* Mathematical Modelling
 
-## Skills
+## Technical Skills
 
 ### Languages
 
@@ -66,9 +77,7 @@ Investigating how numerical integrators influence energy conservation, orbital a
 * VS Code
 * LaTeX
 
-## GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Meeseeks01\&show_icons=true\&theme=tokyonight)
+---
 
 ## Recent Activity
 
