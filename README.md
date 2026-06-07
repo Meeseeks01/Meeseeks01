@@ -6,17 +6,11 @@ Studying chaotic systems. Occasionally contributing to them.
 
 BSc Computer Science student with a strong interest in numerical simulation, dynamical systems, and chaos theory.
 
-<p align="center">
-  <img src="assets/Butterfly_Effect.gif" alt="Butterfly Effect" width="700">
-</p>
-
-
 ## Contribution Graph, in Chaos
 
 <p align="center">
   <img src="assets/chaos.gif" alt="Contribution graph dissolving into chaotic advection" width="840">
 </p>
-
 
 ## About Me
 
@@ -49,6 +43,9 @@ Investigating how numerical integrators influence energy conservation, orbital a
 
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
+<p align="center">
+  <img src="assets/Butterfly_Effect.gif" alt="Pythagorean three-body problem integrated with the Yoshida symplectic method" width="700">
+</p>
 
 ## Research Interests
 
