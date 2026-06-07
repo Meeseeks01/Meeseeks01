@@ -10,6 +10,14 @@ BSc Computer Science student with a strong interest in numerical simulation, dyn
   <img src="assets/Butterfly_Effect.gif" alt="Butterfly Effect" width="700">
 </p>
 
+
+## Contribution Graph, in Chaos
+
+<p align="center">
+  <img src="assets/chaos.gif" alt="Contribution graph dissolving into chaotic advection" width="840">
+</p>
+
+
 ## About Me
 
 * 🎓 BSc Computer Science Student
@@ -41,13 +49,6 @@ Investigating how numerical integrators influence energy conservation, orbital a
 
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
-## Contribution Graph, in Chaos
-
-> My contribution history seeded as tracer particles in a time-dependent vortex flow (integrated with RK4). The flow is a chaotic Hamiltonian, so the graph stretches and folds into chaotic filaments — the signature of sensitive dependence on initial conditions.
-
-<p align="center">
-  <img src="assets/chaos.gif" alt="Contribution graph dissolving into chaotic advection" width="840">
-</p>
 
 ## Research Interests
 
