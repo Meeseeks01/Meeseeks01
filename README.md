@@ -43,8 +43,10 @@ Investigating how numerical integrators influence energy conservation, orbital a
 
 🔗 Repository: https://github.com/Meeseeks01/nbody-numerical-analysis
 
+<h4 align="center">What a chaotic three-body system looks like</h4>
+<p align="center"><sub><em>An illustration of the classic Pythagorean three-body problem — not output from this project, just a depiction of the kind of system it studies.</em></sub></p>
 <p align="center">
-  <img src="assets/nbody-chaos.gif" alt="Pythagorean three-body problem integrated with the Yoshida symplectic method" width="700">
+  <img src="assets/nbody-chaos.gif" alt="Illustration of the chaotic three-body problem (Pythagorean configuration)" width="700">
 </p>
 
 ## Research Interests
