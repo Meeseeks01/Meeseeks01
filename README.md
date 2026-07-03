@@ -14,10 +14,10 @@ BSc Computer Science student with a strong interest in numerical simulation, dyn
 
 ## About Me
 
-* 🎓 BSc Computer Science Student
-* 🔬 Interested in Computational Science, Scientific Computing, and Computational Physics
-* 🧮 Passionate about numerical simulation, numerical methods, and dynamical systems
-* 🌌 Exploring the emergence of order and chaos in complex systems
+* BSc Computer Science Student
+* Interested in Computational Science, Scientific Computing, and Computational Physics
+* Passionate about numerical simulation, numerical methods, and dynamical systems
+* Exploring the emergence of order and chaos in complex systems
 
 ## Featured Project
 
