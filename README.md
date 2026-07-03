@@ -68,11 +68,5 @@ Investigating how numerical integrators influence energy conservation, orbital a
 * Haskell
 * SQL
 
-### Tools
-
-* Git
-* GitHub
-* VS Code
-* LaTeX
 
 ---
