@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Butterfly_Effect.gif" alt="N-Body Simulation" width="700">
+</p>
+
 # Hi, I'm Eleni ⚡️
 Studying chaotic systems. Occasionally contributing to them.
 
